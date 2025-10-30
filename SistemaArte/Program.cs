@@ -6,9 +6,8 @@ class Program
     static void Main()
     {
         List<string> opcoes = new List<string>
-        {
-            "🎨 Explorar Obras de Arte",
-            "🧑‍🎨 Cadastrar Artista",
+        {   "🧑‍🎨 Cadastrar Usuário",
+            "🎨 Cadastrar Obra de Arte",
             "🖼️ Gerenciar Exposições",
             "💰 Leilões Ativos",
             "📦 Histórico de Compras",
