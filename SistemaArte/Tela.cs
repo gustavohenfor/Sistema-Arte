@@ -37,7 +37,7 @@ public class Tela
         char[] simbolos = { '*', '+', '.', 'o', '@', '#', };
 
         DateTime inicio = DateTime.Now;
-        TimeSpan duracao = TimeSpan.FromMilliseconds(3000);
+        TimeSpan duracao = TimeSpan.FromMilliseconds(2000);
         while (DateTime.Now - inicio < duracao)
         {
             int x = random.Next(0, largura);
