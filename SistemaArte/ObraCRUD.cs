@@ -14,7 +14,7 @@ public class ObraCRUD
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("CADASTRO / CONSULTA DE OBRAS");
+        Console.WriteLine("Cadastro / Consulta de Obras");
         Console.ResetColor();
 
         Console.Write("\nDigite o codigo: ");
@@ -65,7 +65,7 @@ public class ObraCRUD
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\nObra encontrado:");
             Console.ResetColor();
-            ObraExistente.ImprimirDados();
+            obraExistente.ImprimirDados();
         }
 
         Console.WriteLine("Pressione qualquer tecla para voltar ao menu...");
@@ -79,7 +79,7 @@ public class ObraCRUD
         Console.WriteLine("Lista de Obras\n");
         Console.ResetColor();
 
-        if (livros.Count == 0)
+        if (obras.Count == 0)
         {
             Console.WriteLine("Nenhuma obra cadastrada!");
         }
